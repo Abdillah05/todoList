@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  .todoitem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    width: 70vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3%;
+  }
+  .addTodo {
+    width: 40vh;
+    margin: 50px auto;
+  }
+  .todolist {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .done {
+    text-decoration: line-through;
+    background-color: rgb(201, 247, 201);
+  }
+  .undone{
+    background-color: rgb(253, 203, 203);
+  }
+  
+  .authContainer{
+  margin: 20vh auto;
+  max-width: 30vw;
+  }
+  .title{
+    width: 400px;
+  }
+  .textWrap{
+    word-wrap: break-word;
+    width: 80%;
+  }
+  p{
+    margin: 0;
+  }
+  @media (max-width: 650px) { 
+    .textWrap{
+      width: 60%;
+    }
+   }

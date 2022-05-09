@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { Todo, User, User_todo } = require('../db/models');
+const { Todo, User, User_todo } = require('../db/models')
 
 
 router.get("/:id", async (req, res) => {
